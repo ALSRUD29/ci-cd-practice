@@ -1,4 +1,4 @@
-import { Discussion } from "./Discussion";
+import { Discussion } from "./Discussion.js";
 
 export const Discussions = ({ discussions, deleteDiscussion }) => {
   return (
