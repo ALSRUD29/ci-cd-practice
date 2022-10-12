@@ -32,4 +32,4 @@ jobs:
             --region ap-northeast-2 \
             build s3://${{ secrets.AWS_S3_BUCKET }} \
             --delete
-        working-directory: ./
+        working-directory: ./my-agora-states-client
